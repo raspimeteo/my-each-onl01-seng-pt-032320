@@ -6,7 +6,6 @@ def my_each(collection)# put argument(s) here
  
   while i < collection.length
     yield(collection[i])
-    puts "array is #{yield}"
     i = i + 1
   end
  
